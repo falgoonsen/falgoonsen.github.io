@@ -33,6 +33,13 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+#myDIV {
+  height:300px;
+  background-color:#FFFFFF;
+  text-align: justify;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -681,6 +688,7 @@ section {
 
 .portfolio-details .portfolio-description {
   padding-top: 30px;
+  text-align: justify;
 }
 
 .portfolio-details .portfolio-description h2 {

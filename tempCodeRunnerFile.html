@@ -1,0 +1,11 @@
+$(function(){
+        $('.data-item').click(function(event){
+        var id = $(this).attr('id')
+        var contentId = "content_"+id
+        var fieldVal = $('#'+fieldId).val()
+        var currVal = Number(fieldVal)+1
+        $('#'+fieldId).val(currVal)
+        
+        setWagesAmount(rowId[1], currVal)
+    });
+      });
