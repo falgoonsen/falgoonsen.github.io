@@ -106,9 +106,10 @@ iPortfolio/portfolio-details-comsure.html<!DOCTYPE html>
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter=".filter-app" class="filter-active data-item" id="STM32">STM32</li>
+              <li data-filter=".filter-app"  class="filter-active data-item" id="STM32">STM32 HAL</li>
+              <li data-filter=".filter-app"  class="data-item" id="STM32-Bare-metal">STM32 Bare-metal </li>
               <li data-filter=".filter-card" class="data-item" id="Arduino">Arduino</li>
-              <li data-filter=".filter-web" class="data-item" id="Firmware">Firmware</li>
+              <li data-filter=".filter-web"  class="data-item" id="Firmware">Firmware</li>
               <li data-filter=".filter-workshop" class="data-item" id="PCB">PCB Design</li>
             </ul>
           </div>
@@ -129,31 +130,33 @@ iPortfolio/portfolio-details-comsure.html<!DOCTYPE html>
     <table class="table table-hover">
       <thead>
         <tr>
-          <th scope="col">
-            <center>Serial No.</center>
-          </th>
+          <th scope="col">Serial No.</th>
           <th scope="col">Topic Name</th>
-          <th scope="col">Desc.</th>
+          <th scope="col">Description.</th>
           <th scope="col">Date</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
+        
+          <tr>
           <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
+          <td><a href="index.html">SPI</a></td>
+          <td>Basic SPI Cmmunication .</td>
+          <td>4/27/2024</td>
+        </tr> 
+        
+
         <tr>
           <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
+          <td><a href="#">Bootloader</a></td>
+          <td>How to write coustom Bootloader</td>
+          <td>4/27/2024</td>
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td colspan="2">Larry the Bird</td>
-          <td>@twitter</td>
+          <td ><a href="#">STM32 USB COMMUNICATION</a></td>
+          <td>How to use USB as a MSC , Serial port , USB HOST etc.</td>
+          <td>4/27/2024</td>
         </tr>
       </tbody>
     </table>
